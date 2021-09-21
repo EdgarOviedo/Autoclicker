@@ -25,8 +25,8 @@ def getIntInput():
 
 def main():
     print("""
-    Ingrese el intervalo de segundos entre cada click (por default es 1 segundo)
-    Protip: Para especificar milisegundos, puede poner decimales""")
+    Ingresa el intervalo de segundos entre cada click (por default es 1 segundo)
+    Protip: Para especificar milisegundos, puedes poner decimales""")
     seconds = getIntInput()
 
     print(Fore.LIGHTYELLOW_EX + "Inicializando el autoclicker")
@@ -40,7 +40,7 @@ def main():
             while seguir:
                 autoClick(seconds)
                 if keyboard.is_pressed("shift+x"):
-                    print(Fore.LIGHTRED_EX + "Finalizando autoclicker")
+                    print(Fore.LIGHTRED_EX + "Finalizando autoclicker, presiona Shift + z para volverlo a iniciar\nO presiona Ctrl + c sobre la terminal para dejar de ejecutar el programa")
                     seguir = False
 
 
@@ -54,9 +54,12 @@ print(Fore.GREEN + """
  / ___ \ |_| | || (_) | (__| | | (__|   <  __/ |   
 /_/   \_\__,_|\__\___/ \___|_|_|\___|_|\_\___|_|
 
-                    Version: 1.0
+                    Version: 1.1
             Desarrollado por: Edgar Oviedo
         Github: https://github.com/EdgarOviedo
 """)
 
-main()
+try:
+    main()
+except:
+    print("\nGracias por su preferencia. :D\nHasta luego.\n")
