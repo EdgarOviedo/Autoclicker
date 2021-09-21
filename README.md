@@ -1,6 +1,6 @@
 # Autoclicker
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/EdgarOviedo/autoclicker)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/EdgarOviedo/Autoclicker)
 
 _Este autoclicker esta planeado para funcionar en el sistema operativo Windows y se inició pensando en una amplia variedad de funcionalidades, las cuales ayudaran a facilitar trabajos manuales relacionados con el teclado y el mouse._
 
@@ -25,11 +25,11 @@ _Antes de clonar este proyecto en tu maquina local, ocupas tener instalado lo si
 ### Instalación 🔧
 _Clona el repositorio en tu maquina local_
 ```
-git clone https://github.com/EdgarOviedo/autoclicker.git
+git clone https://github.com/EdgarOviedo/Autoclicker.git
 ```
 _O si tienes el Github CLI_
 ```
-gh repo clone EdgarOviedo/autoclicker
+gh repo clone EdgarOviedo/Autoclicker
 ```
 _Ingresa a la carpeta del proyecto desde la terminal e instala los modulos utilizados_
 ```
